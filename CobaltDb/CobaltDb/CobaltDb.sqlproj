@@ -103,7 +103,7 @@
     <Build Include="dbo\Stored Procedures\SalesByCategory.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DeployDatabase.ps1">
+    <None Include="DeployDatabaseWithSqlPackage.ps1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="CobaltDb.publish.xml">
